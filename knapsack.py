@@ -27,7 +27,6 @@ if __name__=="__main__":
 
         t = time.clock()
         state , opt = mlrose.random_hill_climb(problem=popt, max_attempts=20)
-        print(state)
         s = time.clock()
         rhct.append(s-t)
         rhco.append(opt)
